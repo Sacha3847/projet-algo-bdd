@@ -81,3 +81,9 @@ SELECT categorie, COUNT(*) AS total
 FROM produits
 GROUP BY categorie;
 
+CREATE VIEW vue_commandes_clients AS
+SELECT clients.nom, commandes.date_commande
+FROM clients
+JOIN commandes
+ON clients.id = commandes.client_id;
+
