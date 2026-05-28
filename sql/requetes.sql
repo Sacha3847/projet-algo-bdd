@@ -113,3 +113,17 @@ END //
 
 DELIMITER ;
 
+DELIMITER //
+
+CREATE TRIGGER verification_quantite
+BEFORE INSERT ON commande_produits
+FOR EACH ROW
+BEGIN
+    IF NEW.quantite <= 0 THEN
+        SIGNAL SQLSTATE '45000'
+        SET MESSAGE_TEXT = 'La quantité doit être supérieure à 0';
+    END IF;
+END //
+
+DELIMITER ;
+
