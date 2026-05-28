@@ -96,3 +96,20 @@ END //
 
 DELIMITER ;
 
+DELIMITER //
+
+CREATE FUNCTION nombre_commandes()
+RETURNS INT
+DETERMINISTIC
+BEGIN
+    DECLARE total INT;
+
+    SELECT COUNT(*)
+    INTO total
+    FROM commandes;
+
+    RETURN total;
+END //
+
+DELIMITER ;
+
