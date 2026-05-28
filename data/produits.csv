@@ -1,0 +1,21 @@
+﻿id,nom,categorie,prix
+1,iPhone 15,Smartphone,999
+2,Galaxy S24,Smartphone,899
+3,MacBook Air,Ordinateur,1299
+4,PC Gamer Asus,Ordinateur,1499
+5,AirPods Pro,Audio,279
+6,Casque Sony,Audio,349
+7,Apple Watch,Montre,449
+8,Galaxy Watch,Montre,399
+9,iPad Air,Tablette,799
+10,Tablette Lenovo,Tablette,399
+11,Clavier Logitech,Accessoire,99
+12,Souris Logitech,Accessoire,59
+13,Ecran Samsung,Ecran,299
+14,Ecran LG,Ecran,349
+15,Chaise Gaming,Mobilier,259
+16,Bureau Ikea,Mobilier,199
+17,Webcam Logitech,Accessoire,129
+18,Micro Blue Yeti,Audio,159
+19,SSD Samsung 1To,Stockage,139
+20,Disque Dur Seagate,Stockage,99
