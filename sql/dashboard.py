@@ -297,3 +297,4 @@ def update_graphs(categorie):
 if __name__ == "__main__":
     app.run(debug=True)
 
+
