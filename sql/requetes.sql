@@ -87,3 +87,12 @@ FROM clients
 JOIN commandes
 ON clients.id = commandes.client_id;
 
+DELIMITER //
+
+CREATE PROCEDURE afficher_clients()
+BEGIN
+    SELECT * FROM clients;
+END //
+
+DELIMITER ;
+
