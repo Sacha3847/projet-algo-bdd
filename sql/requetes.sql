@@ -72,3 +72,7 @@ END //
 
 DELIMITER ;
 
+SELECT clients.nom, commandes.date_commande
+FROM clients
+JOIN commandes
+ON clients.id = commandes.client_id;
